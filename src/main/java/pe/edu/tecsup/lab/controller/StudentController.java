@@ -11,6 +11,7 @@ public class StudentController {
         students.add("Estudiante 1");
         students.add("Estudiante 2");
         students.add("Estudiante 3");
+        students.add("Estudiante 4 - Sprint 2"); 
         
         return students;
     }
