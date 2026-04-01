@@ -13,3 +13,8 @@ public class StudentModel {
     public int getAge() { return age; }
     public String getCode() { return code; }
 }
+
+@Override
+public String toString() {
+    return "Estudiante: " + name + " | Edad: " + age + " | Código: " + code;
+}
