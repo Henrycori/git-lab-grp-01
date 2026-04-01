@@ -18,3 +18,6 @@ public class StudentModel {
 public String toString() {
     return "Estudiante: " + name + " | Edad: " + age + " | Código: " + code;
 }
+public void setName(String name) { this.name = name; }
+public void setAge(int age) { this.age = age; }
+public void setCode(String code) { this.code = code; }
